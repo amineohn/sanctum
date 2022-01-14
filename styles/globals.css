@@ -1,10 +1,8 @@
+@import url("http://fonts.cdnfonts.com/css/pricedown");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 html,
 body {
-  @apply m-0 p-0 font-default overflow-hidden;
-}
-
-body {
-  @apply bg-white dark:bg-indigo-900;
+  @apply h-screen bg-cover;
 }
 
 a {
@@ -32,6 +30,68 @@ a {
 }
 ::-webkit-scrollbar-corner {
   @apply hidden;
+}
+
+.animate {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate2 {
+  animation: myAnim2 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim2 {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateY(-65px);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateY(-28px);
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateY(-8px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
 }
 
 @tailwind base;

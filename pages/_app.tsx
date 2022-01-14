@@ -23,7 +23,6 @@ export default function MyApp({
         description={configuration.description}
       />
       <ThemeProvider defaultTheme="dark" attribute="class">
-        <Navigation />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
