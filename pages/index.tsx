@@ -126,7 +126,7 @@ const Home: NextPage = () => {
                   >
                     Login
                   </a>
-                  <div className="px-3 py-2 rounded-full bg-black/20 space-y-2 lg:block hidden">
+                  <div className="px-3 py-2 rounded-full bg-black/20 space-y-2 hidden">
                     <div className="inline-flex space-x-2">
                       <svg
                         className="text-white w-5 h-5 mt-0.5"
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="justify-end items-start lg:flex hidden">
+                <div className="justify-end items-start hidden">
                   <div className="absolute mr-12">
                     <span className="text-xs font-light text-white text-center uppercase">
                       Qu'attendez vous ?
