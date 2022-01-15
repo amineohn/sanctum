@@ -23,7 +23,9 @@ export default function MyApp({
         description={configuration.description}
       />
       <ThemeProvider defaultTheme="dark" attribute="class">
-        <Component {...pageProps} />
+        <div className="h-screen">
+          <Component {...pageProps} />
+        </div>
       </ThemeProvider>
     </>
   );

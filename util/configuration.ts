@@ -1,6 +1,6 @@
 export const configuration = {
-  title: "Next.js + TypeScript + Tailwind CSS",
-  description: "Template NextJS, Tailwind, TypeScript",
+  title: "SanctumRP",
+  description: "GTA RP",
   firebase: {
     apiKey: "AIzaSyDB6kaXHG4Hycn-C57tgXZkz2CQeIm0Cs8",
     authDomain: "fir-b57a9.firebaseapp.com",
