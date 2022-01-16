@@ -17,42 +17,36 @@ const Teams: NextPage = () => {
                   <img
                     src="/static/images/team.jpg"
                     className="rounded-lg h-72"
-                    alt=""
                   />
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
                     className="rounded-lg h-72"
-                    alt=""
                   />
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
                     className="rounded-lg h-72"
-                    alt=""
                   />
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
                     className="rounded-lg h-72"
-                    alt=""
                   />
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
                     className="rounded-lg h-72"
-                    alt=""
                   />
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
                     className="rounded-lg h-72"
-                    alt=""
                   />
                 </div>
               </div>
