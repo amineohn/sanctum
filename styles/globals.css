@@ -40,6 +40,20 @@ a {
 .swing {
   animation: swing 1s ease 0s 1 normal forwards !important;
 }
+.exit {
+  animation: exit 1s ease 0s 1 normal forwards;
+}
+@keyframes exit {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+}
 @keyframes swig {
   0% {
     opacity: 0;
