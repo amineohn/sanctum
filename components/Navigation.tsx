@@ -23,11 +23,11 @@ const Navigation = () => {
                         </p>
                       </div>
                       <input
-                        className="border border-neutral-400 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal"
+                        className="border border-neutral-400 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal !bg-white"
                         placeholder="Utilisateur"
                       />
                       <input
-                        className="border border-neutral-400 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal"
+                        className="border border-neutral-400 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal !bg-white"
                         placeholder="Mot de passe"
                       />
                       <div className="grid grid-cols-2 space-x-2">
