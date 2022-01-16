@@ -4,10 +4,6 @@ import { ThemeProvider } from "next-themes";
 import { NextPage } from "next";
 import { NextSeo } from "next-seo";
 
-import dynamic from "next/dynamic";
-const Navigation = dynamic(() => import("../components/Navigation"), {
-  ssr: false,
-});
 import { configuration } from "../util/configuration";
 export default function MyApp({
   Component,
@@ -19,7 +15,6 @@ export default function MyApp({
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // update the backgroud image from window
     const handleResize = () => {
       setIsMobile(window.innerWidth < 480);
     };
@@ -38,7 +33,11 @@ export default function MyApp({
       />
       <ThemeProvider defaultTheme="dark" attribute="class">
         <div
-          className={`${isMobile ? "bg-cover" : "h-screen"} bg-cover px-7 py-7`}
+          className={`${
+            isMobile
+              ? "bg-cover h-screen overflow-hidden"
+              : "bg-cover h-screen overflow-hidden"
+          } px-7 py-7`}
           style={{
             backgroundImage: isMobile
               ? "url('/static/images/wallpaper.jpg')"
