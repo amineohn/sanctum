@@ -109,7 +109,7 @@ const Navigation = () => {
                       Equipe
                     </a>
                     <a
-                      href="#"
+                      onClick={() => router.push("/shop")}
                       className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
                     >
                       Boutique
@@ -132,7 +132,7 @@ const Navigation = () => {
                     Equipe
                   </a>
                   <a
-                    href="#"
+                    onClick={() => router.push("/shop")}
                     className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
                   >
                     Boutique
