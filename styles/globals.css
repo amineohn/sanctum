@@ -37,6 +37,22 @@ a {
 .fadeIn {
   animation: fadeIn 1s ease 0s 1 normal forwards;
 }
+.swing {
+  animation: swing 1s ease 0s 1 normal forwards !important;
+}
+@keyframes swig {
+  0% {
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: top;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
+}
 @keyframes slide {
   0% {
     opacity: 0;

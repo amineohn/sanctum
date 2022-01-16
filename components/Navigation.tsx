@@ -7,7 +7,7 @@ const Navigation = () => {
     <>
       {login && (
         <>
-          <div className="flex h-screen items-center justify-center fixed inset-0 z-20 antialiased">
+          <div className="flex h-screen items-center justify-center fixed inset-0 z-20 antialiased swing">
             <div className="absolute inset-0 opacity-75"></div>
             <div className="flex justify-center h-80">
               <div className="slide bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full sm:h-full sm:rounded-lg sm:shadow-2xl sm:max-h-full">
