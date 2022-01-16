@@ -118,30 +118,32 @@ const Navigation = () => {
                 </div>
               </div>
               <div className="sm:hidden" id="mobile-menu">
-                <div className="px-4 pt-2 pb-3 space-y-1 mr-2">
-                  <a
-                    onClick={() => router.push("/")}
-                    className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
-                  >
-                    Acceuil
-                  </a>
-                  <a
-                    onClick={() => router.push("/team")}
-                    className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
-                  >
-                    Equipe
-                  </a>
-                  <a
-                    onClick={() => router.push("/shop")}
-                    className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
-                  >
-                    Boutique
-                  </a>
+                <div className="flex justify-center items-center">
+                  <div className="py-4 px-4 space-y-1 mr-14">
+                    <a
+                      onClick={() => router.push("/")}
+                      className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
+                    >
+                      Acceuil
+                    </a>
+                    <a
+                      onClick={() => router.push("/team")}
+                      className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
+                    >
+                      Equipe
+                    </a>
+                    <a
+                      onClick={() => router.push("/shop")}
+                      className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
+                    >
+                      Boutique
+                    </a>
+                  </div>
                 </div>
-                <div className="flex justify-center mr-2">
+                <div className="flex justify-center mr-14">
                   <a
                     href="#"
-                    className="bg-gradient-to-r from-blue-800 to-blue-900 shadow shadow-blue-900 text-white px-3 py-3 rounded-full text-sm font-medium transition-all"
+                    className="bg-gradient-to-r from-green-800 to-green-900 shadow shadow-green-900 text-white px-3 py-3 rounded-full text-sm font-medium transition-all"
                     onClick={() => setLogin(!login)}
                   >
                     <div className="">
