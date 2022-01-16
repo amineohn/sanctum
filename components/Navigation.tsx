@@ -8,7 +8,7 @@ const Navigation = () => {
       {login && (
         <>
           <div className="flex h-screen items-center justify-center fixed inset-0 z-20 antialiased">
-            <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
+            <div className="absolute inset-0 opacity-75"></div>
             <div className="flex justify-center h-80">
               <div className="slide bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full sm:h-full sm:rounded-lg sm:shadow-2xl sm:max-h-full">
                 <div className="bg-white backdrop-blur-md px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
@@ -23,19 +23,19 @@ const Navigation = () => {
                         </p>
                       </div>
                       <input
-                        className="border border-neutral-500 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal"
+                        className="border border-neutral-400 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal"
                         placeholder="Utilisateur"
                       />
                       <input
-                        className="border border-neutral-500 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal"
+                        className="border border-neutral-400 transition-all px-2 py-2 rounded-xl placeholder:text-black text-black font-normal"
                         placeholder="Mot de passe"
                       />
                       <div className="grid grid-cols-2 space-x-2">
                         <button
-                          className="bg-gradient-to-r from-blue-800 to-blue-900 transition-all text-white font-bold py-1 px-1 rounded-3xl"
+                          className="bg-gradient-to-r from-green-800 to-green-900 transition-all text-white font-bold py-1 px-1 rounded-xl"
                           type="submit"
                         >
-                          <div className="inline-flex items-center space-x-2 mt-0.5">
+                          <div className="inline-flex items-center space-x-2 mt-1">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="w-5 h-5"
@@ -52,7 +52,7 @@ const Navigation = () => {
                           </div>
                         </button>
                         <button
-                          className="bg-gradient-to-r from-rose-700 to-rose-800 transition-all text-white font-bold py-2 px-4 rounded-3xl"
+                          className="bg-gradient-to-r from-rose-500 to-rose-700 transition-all text-white font-bold py-2 px-4 rounded-xl"
                           type="button"
                           onClick={() => null}
                         >
@@ -64,7 +64,7 @@ const Navigation = () => {
                           </div>
                         </button>
                       </div>
-                      <button className="py-5 px-5 rounded-3xl bg-gradient-to-r from-red-800 to-red-900">
+                      <button className="py-5 px-5 rounded-xl bg-gradient-to-r from-blue-800 to-blue-900">
                         <div className="flex justify-center items-center space-x-2">
                           <svg
                             className="text-white w-5 h-5"
