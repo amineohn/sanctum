@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 html,
 body {
-  @apply h-screen bg-cover select-none antialiased;
+  @apply h-screen select-none antialiased;
 }
 
 a {
@@ -34,10 +34,24 @@ a {
 .slide {
   animation: slide 1s ease 0s 1 normal forwards;
 }
+.fadeIn {
+  animation: fadeIn 1s ease 0s 1 normal forwards;
+}
 @keyframes slide {
   0% {
     opacity: 0;
     transform: translateY(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
   }
 
   100% {

@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ThemeProvider } from "next-themes";
 import { NextPage } from "next";
 import { NextSeo } from "next-seo";
@@ -16,6 +16,20 @@ export default function MyApp({
   Component: NextPage;
   pageProps: any;
 }) {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // update the backgroud image from window
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 480);
+    };
+    if (window.innerWidth < 480) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+    window.addEventListener("resize", handleResize);
+  }, []);
   return (
     <>
       <NextSeo
@@ -24,10 +38,16 @@ export default function MyApp({
       />
       <ThemeProvider defaultTheme="dark" attribute="class">
         <div
-          className="h-screen bg-cover px-7 py-7"
-          style={{ backgroundImage: "url('/static/images/707160.jpg')" }}
+          className={`${isMobile ? "bg-cover" : "h-screen"} bg-cover px-7 py-7`}
+          style={{
+            backgroundImage: isMobile
+              ? "url('/static/images/wallpaper.jpg')"
+              : "url('/static/images/707160.jpg')",
+          }}
         >
-          <Component {...pageProps} />
+          <div className="fadeIn">
+            <Component {...pageProps} />
+          </div>
         </div>
       </ThemeProvider>
     </>
