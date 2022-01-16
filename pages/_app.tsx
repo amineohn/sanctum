@@ -23,7 +23,10 @@ export default function MyApp({
         description={configuration.description}
       />
       <ThemeProvider defaultTheme="dark" attribute="class">
-        <div className="h-screen">
+        <div
+          className="h-screen bg-cover px-7 py-7"
+          style={{ backgroundImage: "url('/static/images/707160.jpg')" }}
+        >
           <Component {...pageProps} />
         </div>
       </ThemeProvider>

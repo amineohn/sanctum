@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 html,
 body {
-  @apply h-screen bg-cover w-screen bg-[#362a4e];
+  @apply h-screen bg-cover select-none antialiased;
 }
 
 a {
@@ -31,68 +31,13 @@ a {
 ::-webkit-scrollbar-corner {
   @apply hidden;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-li,
-dl,
-dt,
-dd,
-form,
-fieldset,
-legend,
-input,
-textarea,
-p,
-blockquote,
-pre,
-table,
-th,
-td,
-button,
-a {
-  @apply antialiased;
+.slide {
+  animation: slide 1s ease 0s 1 normal forwards;
 }
-
-.animate {
-  animation: myAnim 1s ease 0s 1 normal forwards;
-}
-.animate2 {
-  animation: myAnim2 1s ease 0s 1 normal forwards;
-}
-@keyframes myAnim2 {
-  0% {
-    transform: scale(2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes myAnim {
+@keyframes slide {
   0% {
     opacity: 0;
     transform: translateY(-250px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate3 {
-  animation: myAnim3 1s ease 0s 1 normal forwards;
-}
-@keyframes myAnim3 {
-  0% {
-    opacity: 0;
-    transform: translateY(250px);
   }
 
   100% {
