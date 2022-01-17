@@ -32,6 +32,7 @@ export default function MyApp({
         description={configuration.description}
       />
       <ThemeProvider defaultTheme="dark" attribute="class">
+        <div className="backdrop-blur-sm absolute w-full h-screen"></div>
         <div
           className={`${
             isMobile
