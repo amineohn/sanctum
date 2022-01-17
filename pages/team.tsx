@@ -16,38 +16,38 @@ const Teams: NextPage = () => {
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
-                    className="rounded-lg h-72"
+                    className="rounded-t-lg h-60"
                   />
+                  <div className="bg-white/25 backdrop-blur-sm px-2 py-2 rounded-b mb-0.5">
+                    <p className="text-white text-center">Aron Maiden</p>
+                  </div>
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
-                    className="rounded-lg h-72"
+                    className="rounded-t-lg h-60"
                   />
+                  <div className="bg-white/25 backdrop-blur-sm px-2 py-2 rounded-b mb-0.5">
+                    <p className="text-white text-center">Klaivert Gotti</p>
+                  </div>
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
-                    className="rounded-lg h-72"
+                    className="rounded-t-lg h-60"
                   />
+                  <div className="bg-white/25 backdrop-blur-sm px-2 py-2 rounded-b mb-0.5">
+                    <p className="text-white text-center">Luciano Aburzzi</p>
+                  </div>
                 </div>
                 <div className="px-2 py-2">
                   <img
                     src="/static/images/team.jpg"
-                    className="rounded-lg h-72"
+                    className="rounded-t-lg h-60"
                   />
-                </div>
-                <div className="px-2 py-2">
-                  <img
-                    src="/static/images/team.jpg"
-                    className="rounded-lg h-72"
-                  />
-                </div>
-                <div className="px-2 py-2">
-                  <img
-                    src="/static/images/team.jpg"
-                    className="rounded-lg h-72"
-                  />
+                  <div className="bg-white/25 backdrop-blur-sm px-2 py-2 rounded-b mb-0.5">
+                    <p className="text-white text-center">John Anderson</p>
+                  </div>
                 </div>
               </div>
             </div>
