@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 html,
 body {
-  @apply h-screen select-none antialiased;
+  @apply h-screen select-none antialiased transition-all duration-300 ease-in-out;
 }
 
 a {

@@ -145,19 +145,19 @@ const Navigation = () => {
                   <div className="flex space-x-4">
                     <a
                       onClick={() => router.push("/")}
-                      className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
+                      className="transition-all duration-300 hover:border-t hover:transition hover:border-white text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 text-sm font-medium"
                     >
                       Acceuil
                     </a>
                     <a
                       onClick={() => router.push("/team")}
-                      className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
+                      className="transition-all duration-300 hover:border-t hover:transition hover:border-white text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 text-sm font-medium"
                     >
                       Equipe
                     </a>
                     <a
                       onClick={() => router.push("/shop")}
-                      className="transition-all duration-300 text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 rounded-lg focus:rounded-xl text-sm font-medium"
+                      className="transition-all duration-300 hover:border-t hover:transition hover:border-white text-white text-opacity-60 hover:text-opacity-100 px-3 py-2 text-sm font-medium"
                     >
                       Boutique
                     </a>

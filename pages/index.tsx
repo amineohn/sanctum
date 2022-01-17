@@ -23,7 +23,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <button className="w-40 h-14 rounded-lg bg-purple-400/25 hover:bg-purple-400/20 transition">
+              <button className="w-40 h-14 rounded-lg bg-purple-400/25 hover:bg-purple-400/20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                 <div className="flex justify-evenly px-5">
                   <svg
                     className="w-6 h-6 text-white"
