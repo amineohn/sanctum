@@ -10,9 +10,7 @@ const Home: NextPage = () => {
         <div className="fadeIn">
           <div className="max-w-7xl my-20">
             <div className="flex flex-col space-y-5 justify-center items-center">
-              <h1 className="font-pricedown text-6xl text-white hover:text-black transition-colors drop-shadow-md shadow-black hover:shadow-white select-none">
-                SanctumRP
-              </h1>
+              <img src="/static/images/SV2.png" />
               <div className="flex justify-center items-center max-w-2xl">
                 <p className="text-white font-medium">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
