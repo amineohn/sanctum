@@ -11,7 +11,7 @@ const Home: NextPage = () => {
           <div className="max-w-7xl my-20">
             <div className="flex flex-col space-y-5 justify-center items-center">
               <img src="/static/images/SV2.png" />
-              <div className="flex justify-center items-center max-w-2xl">
+              <div className="flex justify-center items-center max-w-2xl hidden">
                 <p className="text-white font-medium">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
                   commodi, ipsa quae, assumenda consectetur nesciunt aliquid
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="w-40 h-14 rounded-lg bg-purple-400/25 hover:bg-purple-400/20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+                <button className="w-40 h-14 rounded-lg bg-blue-400/25 hover:bg-blue-400/20 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                   <div className="flex justify-evenly px-5">
                     <svg
                       className="w-6 h-6 text-white"
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <div className="bg-zinc-50/20 px-2 py-2 rounded-lg max-w-2xl">
+            <div className="bg-zinc-50/20 px-2 py-2 rounded-lg max-w-2xl hidden">
               <p className="text-white font-medium">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
                 commodi, ipsa quae, assumenda consectetur nesciunt aliquid
